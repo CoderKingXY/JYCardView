@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40B0E97025655BEE9A34A871 /* Pods_JYCardView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC2F72722E0A3404F72401B /* Pods_JYCardView.framework */; };
+		947A8B40253538AF00E96F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947A8B3F253538AF00E96F5D /* AppDelegate.swift */; };
+		947A8B42253538AF00E96F5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947A8B41253538AF00E96F5D /* SceneDelegate.swift */; };
+		947A8B44253538AF00E96F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947A8B43253538AF00E96F5D /* ViewController.swift */; };
+		947A8B47253538AF00E96F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947A8B45253538AF00E96F5D /* Main.storyboard */; };
+		947A8B49253538B100E96F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947A8B48253538B100E96F5D /* Assets.xcassets */; };
+		947A8B4C253538B100E96F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947A8B4A253538B100E96F5D /* LaunchScreen.storyboard */; };
+		947A8B60253552F700E96F5D /* Utillties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947A8B5F253552F700E96F5D /* Utillties.swift */; };
+		947A8B6925359E1F00E96F5D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947A8B6825359E1F00E96F5D /* Models.swift */; };
+		947A8B732535A53E00E96F5D /* JYCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947A8B722535A53E00E96F5D /* JYCardView.swift */; };
+		947A8B832535AAE800E96F5D /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947A8B822535AAE800E96F5D /* CardViewCell.swift */; };
+		947A8B872535ABB300E96F5D /* JYCardViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947A8B862535ABB300E96F5D /* JYCardViewLayout.swift */; };
+		947A8B8B2535C72A00E96F5D /* JYCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947A8B8A2535C72A00E96F5D /* JYCollectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F763ED700A9C3989B19389A /* Pods-JYCardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYCardView.release.xcconfig"; path = "Target Support Files/Pods-JYCardView/Pods-JYCardView.release.xcconfig"; sourceTree = "<group>"; };
+		947A8B3C253538AF00E96F5D /* JYCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		947A8B3F253538AF00E96F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		947A8B41253538AF00E96F5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		947A8B43253538AF00E96F5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		947A8B46253538AF00E96F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		947A8B48253538B100E96F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		947A8B4B253538B100E96F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		947A8B4D253538B100E96F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		947A8B5F253552F700E96F5D /* Utillties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utillties.swift; sourceTree = "<group>"; };
+		947A8B6825359E1F00E96F5D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		947A8B722535A53E00E96F5D /* JYCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYCardView.swift; sourceTree = "<group>"; };
+		947A8B822535AAE800E96F5D /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
+		947A8B862535ABB300E96F5D /* JYCardViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYCardViewLayout.swift; sourceTree = "<group>"; };
+		947A8B8A2535C72A00E96F5D /* JYCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYCollectionView.swift; sourceTree = "<group>"; };
+		BB0D9A09FF7180F01ED8C8D0 /* Pods-JYCardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYCardView.debug.xcconfig"; path = "Target Support Files/Pods-JYCardView/Pods-JYCardView.debug.xcconfig"; sourceTree = "<group>"; };
+		FAC2F72722E0A3404F72401B /* Pods_JYCardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYCardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		947A8B39253538AF00E96F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B0E97025655BEE9A34A871 /* Pods_JYCardView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F01BC7539ADFAE46FECC0EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9A09FF7180F01ED8C8D0 /* Pods-JYCardView.debug.xcconfig */,
+				4F763ED700A9C3989B19389A /* Pods-JYCardView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		537C0B96EFEB33B1AA7792A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC2F72722E0A3404F72401B /* Pods_JYCardView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		947A8B33253538AF00E96F5D = {
+			isa = PBXGroup;
+			children = (
+				947A8B3E253538AF00E96F5D /* JYCardView */,
+				947A8B3D253538AF00E96F5D /* Products */,
+				4F01BC7539ADFAE46FECC0EC /* Pods */,
+				537C0B96EFEB33B1AA7792A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		947A8B3D253538AF00E96F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947A8B3C253538AF00E96F5D /* JYCardView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947A8B3E253538AF00E96F5D /* JYCardView */ = {
+			isa = PBXGroup;
+			children = (
+				947A8B812535AAD300E96F5D /* Cells */,
+				947A8B802535AAB900E96F5D /* Utillites */,
+				947A8B7D2535AA3400E96F5D /* Models */,
+				947A8B7B2535AA0200E96F5D /* JYCardView */,
+				947A8B3F253538AF00E96F5D /* AppDelegate.swift */,
+				947A8B41253538AF00E96F5D /* SceneDelegate.swift */,
+				947A8B43253538AF00E96F5D /* ViewController.swift */,
+				947A8B45253538AF00E96F5D /* Main.storyboard */,
+				947A8B48253538B100E96F5D /* Assets.xcassets */,
+				947A8B4A253538B100E96F5D /* LaunchScreen.storyboard */,
+				947A8B4D253538B100E96F5D /* Info.plist */,
+			);
+			path = JYCardView;
+			sourceTree = "<group>";
+		};
+		947A8B7B2535AA0200E96F5D /* JYCardView */ = {
+			isa = PBXGroup;
+			children = (
+				947A8B722535A53E00E96F5D /* JYCardView.swift */,
+				947A8B862535ABB300E96F5D /* JYCardViewLayout.swift */,
+				947A8B8A2535C72A00E96F5D /* JYCollectionView.swift */,
+			);
+			path = JYCardView;
+			sourceTree = "<group>";
+		};
+		947A8B7D2535AA3400E96F5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				947A8B6825359E1F00E96F5D /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		947A8B802535AAB900E96F5D /* Utillites */ = {
+			isa = PBXGroup;
+			children = (
+				947A8B5F253552F700E96F5D /* Utillties.swift */,
+			);
+			path = Utillites;
+			sourceTree = "<group>";
+		};
+		947A8B812535AAD300E96F5D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				947A8B822535AAE800E96F5D /* CardViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		947A8B3B253538AF00E96F5D /* JYCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947A8B50253538B100E96F5D /* Build configuration list for PBXNativeTarget "JYCardView" */;
+			buildPhases = (
+				F508A475F6847A069AABB970 /* [CP] Check Pods Manifest.lock */,
+				947A8B38253538AF00E96F5D /* Sources */,
+				947A8B39253538AF00E96F5D /* Frameworks */,
+				947A8B3A253538AF00E96F5D /* Resources */,
+				DF97B393B87489B29C2C68E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYCardView;
+			productName = JYCardView;
+			productReference = 947A8B3C253538AF00E96F5D /* JYCardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		947A8B34253538AF00E96F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					947A8B3B253538AF00E96F5D = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 947A8B37253538AF00E96F5D /* Build configuration list for PBXProject "JYCardView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 947A8B33253538AF00E96F5D;
+			productRefGroup = 947A8B3D253538AF00E96F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				947A8B3B253538AF00E96F5D /* JYCardView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		947A8B3A253538AF00E96F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947A8B4C253538B100E96F5D /* LaunchScreen.storyboard in Resources */,
+				947A8B49253538B100E96F5D /* Assets.xcassets in Resources */,
+				947A8B47253538AF00E96F5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF97B393B87489B29C2C68E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JYCardView/Pods-JYCardView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JYCardView/Pods-JYCardView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JYCardView/Pods-JYCardView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F508A475F6847A069AABB970 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JYCardView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		947A8B38253538AF00E96F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947A8B60253552F700E96F5D /* Utillties.swift in Sources */,
+				947A8B44253538AF00E96F5D /* ViewController.swift in Sources */,
+				947A8B732535A53E00E96F5D /* JYCardView.swift in Sources */,
+				947A8B6925359E1F00E96F5D /* Models.swift in Sources */,
+				947A8B40253538AF00E96F5D /* AppDelegate.swift in Sources */,
+				947A8B42253538AF00E96F5D /* SceneDelegate.swift in Sources */,
+				947A8B832535AAE800E96F5D /* CardViewCell.swift in Sources */,
+				947A8B872535ABB300E96F5D /* JYCardViewLayout.swift in Sources */,
+				947A8B8B2535C72A00E96F5D /* JYCollectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		947A8B45253538AF00E96F5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947A8B46253538AF00E96F5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		947A8B4A253538B100E96F5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947A8B4B253538B100E96F5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		947A8B4E253538B100E96F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		947A8B4F253538B100E96F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		947A8B51253538B100E96F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB0D9A09FF7180F01ED8C8D0 /* Pods-JYCardView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TS9VG6UJSZ;
+				INFOPLIST_FILE = JYCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangxiaoyu.JYCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dev_for_wildcard;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		947A8B52253538B100E96F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F763ED700A9C3989B19389A /* Pods-JYCardView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TS9VG6UJSZ;
+				INFOPLIST_FILE = JYCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangxiaoyu.JYCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dev_for_wildcard;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		947A8B37253538AF00E96F5D /* Build configuration list for PBXProject "JYCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947A8B4E253538B100E96F5D /* Debug */,
+				947A8B4F253538B100E96F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947A8B50253538B100E96F5D /* Build configuration list for PBXNativeTarget "JYCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947A8B51253538B100E96F5D /* Debug */,
+				947A8B52253538B100E96F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 947A8B34253538AF00E96F5D /* Project object */;
+}

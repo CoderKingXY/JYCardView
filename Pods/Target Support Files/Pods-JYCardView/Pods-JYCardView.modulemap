@@ -1,0 +1,6 @@
+framework module Pods_JYCardView {
+  umbrella header "Pods-JYCardView-umbrella.h"
+
+  export *
+  module * { export * }
+}
