@@ -7,6 +7,7 @@ Using UICollectionView to implement the card stack layout.
 
 ## 使用方式
 
+```swift
 import UIKit
 
 class ViewController: UIViewController {
@@ -70,4 +71,4 @@ extension ViewController: JYCardViewDataSource {
         })
     }
 }
-
+```
