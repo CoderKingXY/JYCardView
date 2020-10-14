@@ -1,11 +1,11 @@
 # JYCardView
-Using UICollectionView to implement the card stack layout.
+- Using UICollectionView to implement the card stack layout.
 
-使用UICollectionView实现的轻量级卡牌堆叠式布局。
+- 使用UICollectionView实现的轻量级卡牌堆叠式布局。
 
 ![image](https://github.com/Lucky-JY/JYCardView/blob/main/JYCardView.gif)
 
-## 使用方式
+## Usage
 
 ```swift
 import UIKit
